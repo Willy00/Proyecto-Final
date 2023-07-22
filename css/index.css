@@ -246,11 +246,6 @@ h1 {
   flex-basis: 53.4752%;
 }
 
-.contenedor-principal .contenedor-medio .contenedor-central main.proyecto-principal .mensaje-principal #welcome svg {
-  width: 75%;
-  fill: rgba(255, 255, 255, 0);
-}
-
 .contenedor-principal .contenedor-medio .contenedor-central main.proyecto-principal .mensaje-principal span {
   margin-left: 30px;
   font-size: 0.9em;
