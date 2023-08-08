@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Proyecto 3 - Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+  
+<body>
+    <h1>Formulario</h1>
+  
+    
+    <form id="form">
+ 
+        
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Nombre
+            </label>
+ 
+            
+            <input type="text"
+                   id="name"
+                   placeholder="Ingrese su nombre" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            
+            <input type="email"
+                   id="email"
+                   placeholder="Ingrese su email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Edad
+            </label>
+ 
+            
+            <input type="text"
+                   id="age"
+                   placeholder="Ingrese su edad" />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                ¿Cuál opción te describe mejor?
+            </label>
+             
+            
+            <select name="role" id="role">
+                <option value="student">Estudiante</option>
+                <option value="intern">Intermedio</option>
+                <option value="professional">
+                    Profesional
+                </option>
+                <option value="other">Otro</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                ¿Recomendarias a un amigo CoderHouse?
+            </label>
+ 
+            
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Si</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Quizas</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>Lenguajes de trabajo conocidos
+                <small>(Marque lo que corresponda)</small>
+            </label>
+           
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Spring</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+                Agrega un comentario
+            </label>
+ 
+            
+            <textarea name="comment" id="comment"
+                placeholder="">
+            </textarea>
+        </div>
+  
+        <button type="submit" value="submit">
+            Enviar
+        </button>
+    </form>
+</body>
+  
+</html>
